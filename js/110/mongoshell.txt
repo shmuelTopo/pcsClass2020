@@ -1,0 +1,2329 @@
+Microsoft Windows [Version 10.0.22000.588]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\slubo>mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("001b1e4a-766b-4b6d-b1f8-7c28125348cd") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-03-20T20:24:03.044-04:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+        2022-03-20T20:24:03.045-04:00: This server is bound to localhost. Remote systems will be unable to connect to this server. Start the server with --bind_ip <address> to specify which IP addresses it should serve responses from, or with --bind_ip_all to bind to all interfaces. If this behavior is desired, start the server with --bind_ip 127.0.0.1 to disable this warning
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+1 test>^C
+bye
+{"t":{"$date":"2022-03-21T00:25:14.938Z"},"s":"I",  "c":"QUERY",    "id":22791,   "ctx":"js","msg":"Failed to end logical session","attr":{"lsid":{"id":{"$uuid":"001b1e4a-766b-4b6d-b1f8-7c28125348cd"}},"error":{"code":6,"codeName":"HostUnreachable","errmsg":"network error while attempting to run command 'endSessions' on host '127.0.0.1:27017' "}}}
+
+C:\Users\slubo>
+C:\Users\slubo>
+C:\Users\slubo>
+C:\Users\slubo>mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4a625088-e7e1-49b5-9fa8-67a64de37fbc") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-03-20T20:25:08.713-04:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+1 test>^C
+bye
+
+C:\Users\slubo>
+C:\Users\slubo>
+C:\Users\slubo>
+C:\Users\slubo>mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("e0c0dab9-8d54-49b0-9b2c-7343187c28da") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-03-20T20:25:08.713-04:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+1 test>^C
+bye
+
+C:\Users\slubo>mongo "mongodb+srv://cluster1.o6q4e.mongodb.net/myFirstDatabase" --username testUser
+MongoDB shell version v5.0.6
+Enter password:
+connecting to: mongodb://cluster1-shard-00-00.o6q4e.mongodb.net:27017,cluster1-shard-00-01.o6q4e.mongodb.net:27017,cluster1-shard-00-02.o6q4e.mongodb.net:27017/myFirstDatabase?authSource=admin&compressors=disabled&gssapiServiceName=mongodb&replicaSet=atlas-12hwe3-shard-0&ssl=true
+Implicit session: session { "id" : UUID("cf4ec307-d332-4573-b3ab-714fe6998d6f") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+1 myFirstDatabase>^C
+bye
+
+C:\Users\slubo>mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c564f5bd-7189-4d3e-bf65-972c22a2d799") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-03-20T20:25:08.713-04:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+1 test>
+2 test>
+3 test>show dbs
+accounts  0.006GB
+admin     0.000GB
+config    0.000GB
+local     0.000GB
+one       0.000GB
+4 test>use one
+switched to db one
+5 one>db
+one
+6 one>db
+one
+7 one>use admin
+switched to db admin
+8 admin>db
+admin
+9 admin>use one
+switched to db one
+10 one>show collections
+presidents
+11 one>use foo
+switched to db foo
+12 foo>db.bar.insertOne({foo: "bar"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6237c99812c493b0a1fc51c8")
+}
+13 foo>show dbs
+accounts  0.006GB
+admin     0.000GB
+config    0.000GB
+foo       0.000GB
+local     0.000GB
+one       0.000GB
+14 foo>show collections
+bar
+15 foo>db.bar2.insertOne({foo: "bar"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6237c9b712c493b0a1fc51c9")
+}
+16 foo>show collections
+bar
+bar2
+17 foo>db.bar.find()
+{ "_id" : ObjectId("6237c99812c493b0a1fc51c8"), "foo" : "bar" }
+18 foo>db.bar.insertOne({foo: "bar", _id: 5})
+{ "acknowledged" : true, "insertedId" : 5 }
+19 foo>db.bar.find()
+{ "_id" : ObjectId("6237c99812c493b0a1fc51c8"), "foo" : "bar" }
+{ "_id" : 5, "foo" : "bar" }
+20 foo>db.bar.insertOne({foo: "bar", _id: 5})
+WriteError({
+        "index" : 0,
+        "code" : 11000,
+        "errmsg" : "E11000 duplicate key error collection: foo.bar index: _id_ dup key: { _id: 5.0 }",
+        "op" : {
+                "foo" : "bar",
+                "_id" : 5
+        }
+}) :
+WriteError({
+        "index" : 0,
+        "code" : 11000,
+        "errmsg" : "E11000 duplicate key error collection: foo.bar index: _id_ dup key: { _id: 5.0 }",
+        "op" : {
+                "foo" : "bar",
+                "_id" : 5
+        }
+})
+WriteError@src/mongo/shell/bulk_api.js:465:48
+mergeBatchResults@src/mongo/shell/bulk_api.js:871:49
+executeBatch@src/mongo/shell/bulk_api.js:940:13
+Bulk/this.execute@src/mongo/shell/bulk_api.js:1182:21
+DBCollection.prototype.insertOne@src/mongo/shell/crud_api.js:264:9
+@(shell):1:1
+21 foo>use one
+switched to db one
+22 one>show collections
+presidents
+23 one>db.presidents.show()
+uncaught exception: TypeError: db.presidents.show is not a function :
+@(shell):1:1
+24 one>db.presidents.find()
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"), "name" : "Joe Biden", "year" : "2021" }
+25 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+26 one>db.presidents.findOne()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+27 one>db.presidents.find()
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"), "name" : "Joe Biden", "year" : "2021" }
+28 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+29 one>db.presidents.findOne()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}      db.presidents.insertMany([{name: 'Bill Clinton', year: '1992'},{name: 'George W Bush', year: 2000}])ertMany([{name: 'Bill Clinton', year: '1992'},{name: 'Ge}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("6237cb3e12c493b0a1fc51ca"),
+                ObjectId("6237cb3e12c493b0a1fc51cb")
+        ]
+}
+31 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}      db.presidents.insertMany([{name: 'George HW Bush', year: '1988', _id: 5}])
+{ "acknowledged" : true, "insertedIds" : [ 5 ] }inton', year: '1992'},{name: 'Geo])
+33 one>
+34 one>
+35 one>
+36 one>
+37 one>
+38 one>
+39 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+40 one>
+41 one>
+42 one>db.presidents.find({_id: 5})
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+43 one>db.presidents.find({name: 'Bill Clinton'})
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }db.presidents.insertMany([{name: 'gfdgfdGeorge HW Bush', year: '1988', _id: 6}])ne>db.presidents.insertMany([{name: 'gfGeorge HW Bush', year: '1988', _id: 6}])
+{ "acknowledged" : true, "insertedIds" : [ 6 ] }
+45 one>
+46 one>
+47 one>
+48 one>
+49 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : 6, "name" : "gfdgfdGeorge HW Bush", "year" : "1988" }
+50 one>db.presidents.deleteOne({_id: 6})
+{ "acknowledged" : true, "deletedCount" : 1 }
+51 one>db.presidents.findMany().pretty()
+uncaught exception: TypeError: db.presidents.findMany is not a function :
+@(shell):1:1
+52 one>db.presidents.delete({_id: 6})
+uncaught exception: TypeError: db.presidents.delete is not a function :
+@(shelldb.presidents.insert([{name: 'gfdgfdGeorge HW Bush', year: '1988', _id: 6}])
+BulkWriteResult({nts.insert([{name: 'gfdgfdGeorge HW Bush', year: '1988', _id: 6}])        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})     db.presidents.find().pretty()
+{   ne>db.presidents.insert([{name: 'gfdgfdGeorge HW Bush', year: '1988', _id: 6}])
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id"db.presidents.deleteMany({_id: 6})
+{ "acknowledged" : true, "deletedCount" : 1 }orge HW Bush', year: '1988', _id: 6}])
+56 one>
+57 one>
+58 one>
+59 one>
+60 one>
+61 one>
+62 one>
+63 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+64 one>db.presidents.update({name: 'Joe Biden'}, {year: 2022})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+65 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a4"), "year" : 2022 }
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+66 one>db.presidents.deleteOne({_id: 603bc8d8a951970cb8c5b2a4})
+uncaught exception: SyntaxError: identifier starts immediately after numeric literal :
+@(shell):1:30
+67 one>db.presidents.deleteOne({_id: '603bc8d8a951970cb8c5b2a4'})
+{ "acknowledged" : true, "deletedCount" : 0 }
+68 one>db.presidents.deleteOne({_id: ObjectId('603bc8d8a951970cb8c5b2a4')})
+{ "acknowledged" : true, "deletedCount" : 1 }
+69 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+70 one>db.presidents.insertOne({name: 'Joe Biden', year: "2021"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6237cdfb12c493b0a1fc51cc")
+}
+71 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{
+        "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+72 one>db.presidents.updateOne({name: 'Joe Biden'}, {year: 2022})
+uncaught exception: Error: the update operation document must contain atomic operators :
+DBCollection.prototype.updateOne@src/mongo/shell/crud_api.js:565:19
+@(shell):1:1
+73 one>db.presidents.find({}, {name: 1})
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush" }
+{ "_id" : 5, "name" : "George HW Bush" }
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden" }
+74 one>db.presidents.find({}, {name: 1, _id: 0})
+{ "name" : "Barack Hussein Obama" }
+{ "name" : "Donald Trump" }
+{ "name" : "Bill Clinton" }
+{ "name" : "George W Bush" }
+{ "name" : "George HW Bush" }
+{ "name" : "Joe Biden" }
+75 one>db.presidents.find({}, {year: 0})
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush" }
+{ "_id" : 5, "name" : "George HW Bush" }
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden" }
+76 one>db.presidents.find({}, {year: 0, name: 1})
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "Cannot do inclusion on field name in exclusion projection",
+        "code" : 31253,
+        "codeName" : "Location31253"
+}
+77 one>db.presidents.find().sort({year: 1})
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+78 one>db.presidents.find().sort({year: -1})
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+79 one>db.presidents.find().sort({name: 1})
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+80 one>db.presidents.find().sort({year: -1, name: 1})
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+81 one>db.presidents.insertOne({name: 'Kamala Harris', year: "2021"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6237d02812c493b0a1fc51cd")
+}
+82 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{
+        "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237d02812c493b0a1fc51cd"),
+        "name" : "Kamala Harris",
+        "year" : "2021"
+}
+83 one>db.presidents.find().sort({year: -1})
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+{ "_id" : ObjectId("6237d02812c493b0a1fc51cd"), "name" : "Kamala Harris", "year" : "2021" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+84 one>db.presidents.find().sort({year: -1, name: -1})
+{ "_id" : ObjectId("6237d02812c493b0a1fc51cd"), "name" : "Kamala Harris", "year" : "2021" }
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+85 one>db.presidents.find().sort({year: -1, name: 1})
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+{ "_id" : ObjectId("6237d02812c493b0a1fc51cd"), "name" : "Kamala Harris", "year" : "2021" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+86 one>sayHi()
+Hi!
+87 one>load('C:\\xampp\\htdocs\\class\\js\\110\\mongoFunction.js')
+true
+88 one>createDocuments('foobar', 500)
+89 one>show collections
+foobar
+presidents
+90 one>db.foobar.find()
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51ce"), "name" : "document 0", "value" : 0 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51cf"), "name" : "document 1", "value" : 1 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d0"), "name" : "document 2", "value" : 2 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d1"), "name" : "document 3", "value" : 3 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d2"), "name" : "document 4", "value" : 4 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d3"), "name" : "document 5", "value" : 5 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d4"), "name" : "document 6", "value" : 6 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d5"), "name" : "document 7", "value" : 7 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d6"), "name" : "document 8", "value" : 8 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d7"), "name" : "document 9", "value" : 9 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d8"), "name" : "document 10", "value" : 10 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51d9"), "name" : "document 11", "value" : 11 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51da"), "name" : "document 12", "value" : 12 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51db"), "name" : "document 13", "value" : 13 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51dc"), "name" : "document 14", "value" : 14 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51dd"), "name" : "document 15", "value" : 15 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51de"), "name" : "document 16", "value" : 16 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51df"), "name" : "document 17", "value" : 17 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e0"), "name" : "document 18", "value" : 18 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e1"), "name" : "document 19", "value" : 19 }
+Type "it" for more
+91 one>it
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e2"), "name" : "document 20", "value" : 20 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e3"), "name" : "document 21", "value" : 21 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e4"), "name" : "document 22", "value" : 22 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e5"), "name" : "document 23", "value" : 23 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e6"), "name" : "document 24", "value" : 24 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e7"), "name" : "document 25", "value" : 25 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e8"), "name" : "document 26", "value" : 26 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51e9"), "name" : "document 27", "value" : 27 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51ea"), "name" : "document 28", "value" : 28 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51eb"), "name" : "document 29", "value" : 29 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51ec"), "name" : "document 30", "value" : 30 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51ed"), "name" : "document 31", "value" : 31 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51ee"), "name" : "document 32", "value" : 32 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51ef"), "name" : "document 33", "value" : 33 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f0"), "name" : "document 34", "value" : 34 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f1"), "name" : "document 35", "value" : 35 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f2"), "name" : "document 36", "value" : 36 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f3"), "name" : "document 37", "value" : 37 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f4"), "name" : "document 38", "value" : 38 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f5"), "name" : "document 39", "value" : 39 }
+Type "it" for more
+92 one>it
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f6"), "name" : "document 40", "value" : 40 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f7"), "name" : "document 41", "value" : 41 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f8"), "name" : "document 42", "value" : 42 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51f9"), "name" : "document 43", "value" : 43 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51fa"), "name" : "document 44", "value" : 44 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51fb"), "name" : "document 45", "value" : 45 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51fc"), "name" : "document 46", "value" : 46 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51fd"), "name" : "document 47", "value" : 47 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51fe"), "name" : "document 48", "value" : 48 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc51ff"), "name" : "document 49", "value" : 49 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5200"), "name" : "document 50", "value" : 50 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5201"), "name" : "document 51", "value" : 51 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5202"), "name" : "document 52", "value" : 52 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5203"), "name" : "document 53", "value" : 53 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5204"), "name" : "document 54", "value" : 54 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5205"), "name" : "document 55", "value" : 55 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5206"), "name" : "document 56", "value" : 56 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5207"), "name" : "document 57", "value" : 57 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5208"), "name" : "document 58", "value" : 58 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5209"), "name" : "document 59", "value" : 59 }
+Type "it" for more
+93 one>it
+{ "_id" : ObjectId("6237d2c512c493b0a1fc520a"), "name" : "document 60", "value" : 60 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc520b"), "name" : "document 61", "value" : 61 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc520c"), "name" : "document 62", "value" : 62 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc520d"), "name" : "document 63", "value" : 63 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc520e"), "name" : "document 64", "value" : 64 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc520f"), "name" : "document 65", "value" : 65 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5210"), "name" : "document 66", "value" : 66 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5211"), "name" : "document 67", "value" : 67 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5212"), "name" : "document 68", "value" : 68 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5213"), "name" : "document 69", "value" : 69 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5214"), "name" : "document 70", "value" : 70 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5215"), "name" : "document 71", "value" : 71 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5216"), "name" : "document 72", "value" : 72 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5217"), "name" : "document 73", "value" : 73 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5218"), "name" : "document 74", "value" : 74 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5219"), "name" : "document 75", "value" : 75 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc521a"), "name" : "document 76", "value" : 76 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc521b"), "name" : "document 77", "value" : 77 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc521c"), "name" : "document 78", "value" : 78 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc521d"), "name" : "document 79", "value" : 79 }
+Type "it" for more
+94 one>it
+{ "_id" : ObjectId("6237d2c512c493b0a1fc521e"), "name" : "document 80", "value" : 80 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc521f"), "name" : "document 81", "value" : 81 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5220"), "name" : "document 82", "value" : 82 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5221"), "name" : "document 83", "value" : 83 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5222"), "name" : "document 84", "value" : 84 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5223"), "name" : "document 85", "value" : 85 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5224"), "name" : "document 86", "value" : 86 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5225"), "name" : "document 87", "value" : 87 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5226"), "name" : "document 88", "value" : 88 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5227"), "name" : "document 89", "value" : 89 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5228"), "name" : "document 90", "value" : 90 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5229"), "name" : "document 91", "value" : 91 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc522a"), "name" : "document 92", "value" : 92 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc522b"), "name" : "document 93", "value" : 93 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc522c"), "name" : "document 94", "value" : 94 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc522d"), "name" : "document 95", "value" : 95 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc522e"), "name" : "document 96", "value" : 96 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc522f"), "name" : "document 97", "value" : 97 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5230"), "name" : "document 98", "value" : 98 }
+{ "_id" : ObjectId("6237d2c512c493b0a1fc5231"), "name" : "document 99", "value" : 99 }
+Type "it" for more
+95 one>
+96 one>function sayHello() { print('hello') }
+97 one>sayHello()
+hello
+98 one>person = {name: 'Joe'}
+{ "name" : "Joe" }
+99 one>edit joe
+100 one>edit person
+101 one>person
+{ "name" : "Bob" }
+102 one>show collections
+foobar
+presidents
+103 one>db.presidents.find()
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+{ "_id" : ObjectId("6237d02812c493b0a1fc51cd"), "name" : "Kamala Harris", "year" : "2021" }
+104 one>db.presidents.insertOne({foo: 'bar'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6237d40f12c493b0a1fc53c2")
+}
+105 one>db.presidents.find()
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"), "name" : "Barack Hussein Obama", "year" : "2014" }
+{ "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"), "name" : "Donald Trump", "year" : "2017" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"), "name" : "Bill Clinton", "year" : "1992" }
+{ "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"), "name" : "George W Bush", "year" : 2000 }
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{ "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"), "name" : "Joe Biden", "year" : "2021" }
+{ "_id" : ObjectId("6237d02812c493b0a1fc51cd"), "name" : "Kamala Harris", "year" : "2021" }
+{ "_id" : ObjectId("6237d40f12c493b0a1fc53c2"), "foo" : "bar" }
+106 one>show dbs
+accounts  0.006GB
+admin     0.000GB
+config    0.000GB
+foo       0.000GB
+local     0.000GB
+one       0.000GB
+107 one>use accounts
+switched to db accounts
+108 accounts>show collections
+bank_data
+109 accounts>db.bank_data.count()
+50000
+110 accounts>db.bank_data.find()
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7741"), "first_name" : "ROBERT", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 3465277.443564153, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 6001520.415853325, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 1739276.2966888128, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7704684.832334223, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7742"), "first_name" : "MICHAEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 2819063.8844904397, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4131942.2529414617, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 3782509.0311059216, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 6531886.9064971, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 2105927.920320713, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 4612959.380901612, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7743"), "first_name" : "WILLIAM", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 2497138.738978415, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 405606.12124239095, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 9149015.783455048, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 8797914.360492531, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7744"), "first_name" : "DAVID", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8857597.106995674, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 471237.47356353, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 2834734.162895667, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 6177092.375456998, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7745"), "first_name" : "RICHARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 714872.2542833243, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4812651.936193353, "currency" : "YUAN" }, { "account_type" : "Investment", "account_balance" : 2862753.076585194, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 7518653.660258865, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 2349544.575176711, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8443090.325156216, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 745273.1369779429, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 8711574.840919748, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7746"), "first_name" : "CHARLES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 7959552.738209671, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 7586797.95113736, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3000642.5318386676, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 8510528.056592602, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 9792223.997477302, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 2541888.2929410744, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7747"), "first_name" : "JOSEPH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 4622864.137518865, "currency" : "YEN" }, { "account_type" : "Savings", "account_balance" : 6580439.762613354, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 9045715.151562946, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 8273872.604220738, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8996205.352283742, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 2691894.235052195, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7748"), "first_name" : "THOMAS", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 936130.4617335526, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 4173144.9420674974, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 8282074.554095908, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 7890796.5475060865, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 4747966.686441477, "currency" : "PESO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7749"), "first_name" : "CHRISTOPHER", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 1870338.5807330757, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 5098043.412530517, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 3042158.5783834355, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 2721431.0181220435, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 2135388.570106006, "currency" : "USD" }, { "account_type" : "Savings", "account_balance" : 2416831.8654360515, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 405349.36727577704, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 6140519.315997784, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774a"), "first_name" : "DANIEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 8382349.386766551, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 6605864.850059703, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 3849188.922156063, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 4040933.2733676303, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6169503.517499695, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 7641660.104955465, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 6103871.976585753, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 5707269.0824853135, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774b"), "first_name" : "PAUL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 936484.1221326711, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774c"), "first_name" : "MARK", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 521640.39247602574, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 9896058.025694223, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 6326316.032295041, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 752161.7102783576, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 496816.2525023853, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7791969.069134079, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 8401384.260885552, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774d"), "first_name" : "DONALD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 9075817.291616874, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 3447555.7155175945, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774e"), "first_name" : "GEORGE", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 7510049.716676093, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 8978088.436168617, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3536582.866462197, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4390095.46173461, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774f"), "first_name" : "KENNETH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 8984765.638846941, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7750"), "first_name" : "STEVEN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 7606194.17605087, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2099711.775821766, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2961011.973269031, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 5830306.873168334, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 1542091.8696738125, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7751"), "first_name" : "EDWARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 6577381.434625924, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8998935.759297138, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 588000.4045217587, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6743563.754405159, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8580650.627761671, "currency" : "POUNDS STERLING" }, { "account_type" : "401K", "account_balance" : 7687815.685781645, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 9128407.633252997, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7752"), "first_name" : "BRIAN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 149839.10500178766, "currency" : "PESO" } ] }
+Type "it" for more
+111 accounts>db.bank_data.find().pretty()
+{
+        "_id" : ObjectId("622b887cedebf432ea3d773f"),
+        "first_name" : "JAMES",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 8995952.153640702,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 3901436.5580737568,
+                        "currency" : "USD"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7740"),
+        "first_name" : "JOHN",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 9059210.226195503,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 5926514.06875377,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 8172876.597329946,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 4320374.732933239,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 9159979.449077135,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 8923437.883474918,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 3810781.9932702538,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 1803757.09787294,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 4947925.350834157,
+                        "currency" : "EURO"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7741"),
+        "first_name" : "ROBERT",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 3465277.443564153,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 6001520.415853325,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 1739276.2966888128,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 7704684.832334223,
+                        "currency" : "YUAN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7742"),
+        "first_name" : "MICHAEL",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 2819063.8844904397,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 4131942.2529414617,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 3782509.0311059216,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 6531886.9064971,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 2105927.920320713,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 4612959.380901612,
+                        "currency" : "YUAN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7743"),
+        "first_name" : "WILLIAM",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 2497138.738978415,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 405606.12124239095,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 9149015.783455048,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 8797914.360492531,
+                        "currency" : "YUAN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7744"),
+        "first_name" : "DAVID",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 8857597.106995674,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 471237.47356353,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 2834734.162895667,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 6177092.375456998,
+                        "currency" : "USD"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7745"),
+        "first_name" : "RICHARD",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 714872.2542833243,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 4812651.936193353,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 2862753.076585194,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 7518653.660258865,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 2349544.575176711,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 8443090.325156216,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 745273.1369779429,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 8711574.840919748,
+                        "currency" : "POUNDS STERLING"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7746"),
+        "first_name" : "CHARLES",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 7959552.738209671,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 7586797.95113736,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 3000642.5318386676,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 8510528.056592602,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 9792223.997477302,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 2541888.2929410744,
+                        "currency" : "POUNDS STERLING"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7747"),
+        "first_name" : "JOSEPH",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 4622864.137518865,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 6580439.762613354,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 9045715.151562946,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 8273872.604220738,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 8996205.352283742,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 2691894.235052195,
+                        "currency" : "YUAN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7748"),
+        "first_name" : "THOMAS",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 936130.4617335526,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 4173144.9420674974,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 8282074.554095908,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 7890796.5475060865,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 4747966.686441477,
+                        "currency" : "PESO"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7749"),
+        "first_name" : "CHRISTOPHER",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 1870338.5807330757,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 5098043.412530517,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 3042158.5783834355,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 2721431.0181220435,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 2135388.570106006,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 2416831.8654360515,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 405349.36727577704,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 6140519.315997784,
+                        "currency" : "YEN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d774a"),
+        "first_name" : "DANIEL",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 8382349.386766551,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 6605864.850059703,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 3849188.922156063,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 4040933.2733676303,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 6169503.517499695,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 7641660.104955465,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 6103871.976585753,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 5707269.0824853135,
+                        "currency" : "YEN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d774b"),
+        "first_name" : "PAUL",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 936484.1221326711,
+                        "currency" : "YUAN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d774c"),
+        "first_name" : "MARK",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 521640.39247602574,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 9896058.025694223,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 6326316.032295041,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 752161.7102783576,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 496816.2525023853,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 7791969.069134079,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 8401384.260885552,
+                        "currency" : "POUNDS STERLING"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d774d"),
+        "first_name" : "DONALD",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 9075817.291616874,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 3447555.7155175945,
+                        "currency" : "POUNDS STERLING"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d774e"),
+        "first_name" : "GEORGE",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 7510049.716676093,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 8978088.436168617,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 3536582.866462197,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 4390095.46173461,
+                        "currency" : "USD"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d774f"),
+        "first_name" : "KENNETH",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 8984765.638846941,
+                        "currency" : "YEN"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7750"),
+        "first_name" : "STEVEN",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 7606194.17605087,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 2099711.775821766,
+                        "currency" : "EURO"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 2961011.973269031,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 5830306.873168334,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 1542091.8696738125,
+                        "currency" : "EURO"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7751"),
+        "first_name" : "EDWARD",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 6577381.434625924,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 8998935.759297138,
+                        "currency" : "USD"
+                },
+                {
+                        "account_type" : "Investment",
+                        "account_balance" : 588000.4045217587,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 6743563.754405159,
+                        "currency" : "YUAN"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 8580650.627761671,
+                        "currency" : "POUNDS STERLING"
+                },
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 7687815.685781645,
+                        "currency" : "YEN"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 9128407.633252997,
+                        "currency" : "EURO"
+                }
+        ]
+}
+{
+        "_id" : ObjectId("622b887cedebf432ea3d7752"),
+        "first_name" : "BRIAN",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "401K",
+                        "account_balance" : 149839.10500178766,
+                        "currency" : "PESO"
+                }
+        ]
+}
+Type "it" for more
+112 accounts>db.bank_data.find().limit(5)
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7741"), "first_name" : "ROBERT", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 3465277.443564153, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 6001520.415853325, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 1739276.2966888128, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7704684.832334223, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7742"), "first_name" : "MICHAEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 2819063.8844904397, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4131942.2529414617, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 3782509.0311059216, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 6531886.9064971, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 2105927.920320713, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 4612959.380901612, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7743"), "first_name" : "WILLIAM", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 2497138.738978415, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 405606.12124239095, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 9149015.783455048, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 8797914.360492531, "currency" : "YUAN" } ] }
+113 accounts>db.bank_data.find().limit(2)
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+114 accounts>
+115 accounts>
+116 accounts>
+117 accounts>
+118 accounts>
+119 accounts>
+120 accounts>db.bank_data.find().limit(2)
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+121 accounts>db.bank_data.find({last_name: 'SMITH'}).count()
+100
+122 accounts>db.bank_data.find({last_name: 'SMITH', first_name: 'JAMES'}).count()
+1
+123 accounts>db.bank_data.find({last_name: 'SMITH', first_name: 'JAMES'})
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+124 accounts>db.bank_data.findOne({last_name: 'SMITH', first_name: 'JAMES'})
+{
+        "_id" : ObjectId("622b887cedebf432ea3d773f"),
+        "first_name" : "JAMES",
+        "last_name" : "SMITH",
+        "accounts" : [
+                {
+                        "account_type" : "Savings",
+                        "account_balance" : 8995952.153640702,
+                        "currency" : "PESO"
+                },
+                {
+                        "account_type" : "Checking",
+                        "account_balance" : 3901436.5580737568,
+                        "currency" : "USD"
+                }
+        ]
+}
+125 accounts>let smiths = db.bank_data.find({last_name: 'SMITH'})
+126 accounts>smiths.count()
+100
+127 accounts>smiths.map
+function(func) {
+    var a = [];
+    while (this.hasNext())
+        a.push(func(this.next()));
+    return a;
+}
+128 accounts>smiths.forEach
+function(func) {
+    while (this.hasNext())
+        func(this.next());
+}
+129 accounts>smiths.filter
+130 accounts>let smithsArray = smiths.toArray()
+131 accounts>smithsArray.filter
+function filter() {
+    [native code]
+}
+132 accounts>smiths
+133 accounts>smiths.count()
+100
+134 accounts>smiths.filter
+135 accounts>smiths.forEach(s => console.log(`${s.first_name} ${s.last_name}`)
+... )
+136 accounts>smiths = db.bank_data.find({last_name: 'SMITH'})
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7741"), "first_name" : "ROBERT", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 3465277.443564153, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 6001520.415853325, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 1739276.2966888128, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7704684.832334223, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7742"), "first_name" : "MICHAEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 2819063.8844904397, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4131942.2529414617, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 3782509.0311059216, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 6531886.9064971, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 2105927.920320713, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 4612959.380901612, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7743"), "first_name" : "WILLIAM", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 2497138.738978415, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 405606.12124239095, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 9149015.783455048, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 8797914.360492531, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7744"), "first_name" : "DAVID", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8857597.106995674, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 471237.47356353, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 2834734.162895667, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 6177092.375456998, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7745"), "first_name" : "RICHARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 714872.2542833243, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4812651.936193353, "currency" : "YUAN" }, { "account_type" : "Investment", "account_balance" : 2862753.076585194, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 7518653.660258865, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 2349544.575176711, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8443090.325156216, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 745273.1369779429, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 8711574.840919748, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7746"), "first_name" : "CHARLES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 7959552.738209671, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 7586797.95113736, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3000642.5318386676, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 8510528.056592602, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 9792223.997477302, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 2541888.2929410744, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7747"), "first_name" : "JOSEPH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 4622864.137518865, "currency" : "YEN" }, { "account_type" : "Savings", "account_balance" : 6580439.762613354, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 9045715.151562946, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 8273872.604220738, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8996205.352283742, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 2691894.235052195, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7748"), "first_name" : "THOMAS", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 936130.4617335526, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 4173144.9420674974, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 8282074.554095908, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 7890796.5475060865, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 4747966.686441477, "currency" : "PESO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7749"), "first_name" : "CHRISTOPHER", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 1870338.5807330757, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 5098043.412530517, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 3042158.5783834355, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 2721431.0181220435, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 2135388.570106006, "currency" : "USD" }, { "account_type" : "Savings", "account_balance" : 2416831.8654360515, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 405349.36727577704, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 6140519.315997784, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774a"), "first_name" : "DANIEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 8382349.386766551, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 6605864.850059703, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 3849188.922156063, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 4040933.2733676303, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6169503.517499695, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 7641660.104955465, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 6103871.976585753, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 5707269.0824853135, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774b"), "first_name" : "PAUL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 936484.1221326711, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774c"), "first_name" : "MARK", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 521640.39247602574, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 9896058.025694223, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 6326316.032295041, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 752161.7102783576, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 496816.2525023853, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7791969.069134079, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 8401384.260885552, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774d"), "first_name" : "DONALD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 9075817.291616874, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 3447555.7155175945, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774e"), "first_name" : "GEORGE", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 7510049.716676093, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 8978088.436168617, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3536582.866462197, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4390095.46173461, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774f"), "first_name" : "KENNETH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 8984765.638846941, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7750"), "first_name" : "STEVEN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 7606194.17605087, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2099711.775821766, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2961011.973269031, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 5830306.873168334, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 1542091.8696738125, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7751"), "first_name" : "EDWARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 6577381.434625924, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8998935.759297138, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 588000.4045217587, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6743563.754405159, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8580650.627761671, "currency" : "POUNDS STERLING" }, { "account_type" : "401K", "account_balance" : 7687815.685781645, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 9128407.633252997, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7752"), "first_name" : "BRIAN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 149839.10500178766, "currency" : "PESO" } ] }
+Type "it" for more
+137 accounts>smiths = db.bank_data.find({last_name: 'SMITH'})
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7741"), "first_name" : "ROBERT", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 3465277.443564153, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 6001520.415853325, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 1739276.2966888128, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7704684.832334223, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7742"), "first_name" : "MICHAEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 2819063.8844904397, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4131942.2529414617, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 3782509.0311059216, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 6531886.9064971, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 2105927.920320713, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 4612959.380901612, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7743"), "first_name" : "WILLIAM", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 2497138.738978415, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 405606.12124239095, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 9149015.783455048, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 8797914.360492531, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7744"), "first_name" : "DAVID", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8857597.106995674, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 471237.47356353, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 2834734.162895667, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 6177092.375456998, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7745"), "first_name" : "RICHARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 714872.2542833243, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4812651.936193353, "currency" : "YUAN" }, { "account_type" : "Investment", "account_balance" : 2862753.076585194, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 7518653.660258865, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 2349544.575176711, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8443090.325156216, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 745273.1369779429, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 8711574.840919748, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7746"), "first_name" : "CHARLES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 7959552.738209671, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 7586797.95113736, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3000642.5318386676, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 8510528.056592602, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 9792223.997477302, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 2541888.2929410744, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7747"), "first_name" : "JOSEPH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 4622864.137518865, "currency" : "YEN" }, { "account_type" : "Savings", "account_balance" : 6580439.762613354, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 9045715.151562946, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 8273872.604220738, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8996205.352283742, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 2691894.235052195, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7748"), "first_name" : "THOMAS", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 936130.4617335526, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 4173144.9420674974, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 8282074.554095908, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 7890796.5475060865, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 4747966.686441477, "currency" : "PESO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7749"), "first_name" : "CHRISTOPHER", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 1870338.5807330757, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 5098043.412530517, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 3042158.5783834355, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 2721431.0181220435, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 2135388.570106006, "currency" : "USD" }, { "account_type" : "Savings", "account_balance" : 2416831.8654360515, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 405349.36727577704, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 6140519.315997784, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774a"), "first_name" : "DANIEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 8382349.386766551, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 6605864.850059703, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 3849188.922156063, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 4040933.2733676303, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6169503.517499695, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 7641660.104955465, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 6103871.976585753, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 5707269.0824853135, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774b"), "first_name" : "PAUL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 936484.1221326711, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774c"), "first_name" : "MARK", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 521640.39247602574, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 9896058.025694223, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 6326316.032295041, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 752161.7102783576, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 496816.2525023853, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7791969.069134079, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 8401384.260885552, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774d"), "first_name" : "DONALD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 9075817.291616874, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 3447555.7155175945, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774e"), "first_name" : "GEORGE", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 7510049.716676093, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 8978088.436168617, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3536582.866462197, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4390095.46173461, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774f"), "first_name" : "KENNETH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 8984765.638846941, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7750"), "first_name" : "STEVEN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 7606194.17605087, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2099711.775821766, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2961011.973269031, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 5830306.873168334, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 1542091.8696738125, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7751"), "first_name" : "EDWARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 6577381.434625924, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8998935.759297138, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 588000.4045217587, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6743563.754405159, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8580650.627761671, "currency" : "POUNDS STERLING" }, { "account_type" : "401K", "account_balance" : 7687815.685781645, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 9128407.633252997, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7752"), "first_name" : "BRIAN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 149839.10500178766, "currency" : "PESO" } ] }
+Type "it" for more
+138 accounts>
+139 accounts>
+140 accounts>
+141 accounts>
+142 accounts>
+143 accounts>
+144 accounts>
+145 accounts>smiths.count()
+100
+146 accounts>smiths.forEach(s => console.log(`${s.first_name} ${s.last_name}`) )
+ReferenceError: console is not defined :
+@(shell):1:21
+DBQuery.prototype.forEach@src/mongo/shell/query.js:514:9
+@(shell):1:1
+147 accounts>smiths.forEach(s => prints(`${s.first_name} ${s.last_name}`) )
+ReferenceError: prints is not defined :
+@(shell):1:21
+DBQuery.prototype.forEach@src/mongo/shell/query.js:514:9
+@(shell):1:1
+148 accounts>smiths.forEach(s => print(`${s.first_name} ${s.last_name}`) )
+KEVIN SMITH
+JASON SMITH
+MATTHEW SMITH
+GARY SMITH
+TIMOTHY SMITH
+JOSE SMITH
+LARRY SMITH
+JEFFREY SMITH
+FRANK SMITH
+SCOTT SMITH
+ERIC SMITH
+STEPHEN SMITH
+ANDREW SMITH
+RAYMOND SMITH
+GREGORY SMITH
+JOSHUA SMITH
+JERRY SMITH
+DENNIS SMITH
+WALTER SMITH
+PATRICK SMITH
+PETER SMITH
+HAROLD SMITH
+DOUGLAS SMITH
+HENRY SMITH
+CARL SMITH
+ARTHUR SMITH
+RYAN SMITH
+ROGER SMITH
+JOE SMITH
+JUAN SMITH
+JACK SMITH
+ALBERT SMITH
+JONATHAN SMITH
+JUSTIN SMITH
+TERRY SMITH
+GERALD SMITH
+KEITH SMITH
+SAMUEL SMITH
+WILLIE SMITH
+RALPH SMITH
+LAWRENCE SMITH
+NICHOLAS SMITH
+ROY SMITH
+BENJAMIN SMITH
+BRUCE SMITH
+BRANDON SMITH
+ADAM SMITH
+HARRY SMITH
+FRED SMITH
+WAYNE SMITH
+BILLY SMITH
+STEVE SMITH
+LOUIS SMITH
+JEREMY SMITH
+AARON SMITH
+RANDY SMITH
+HOWARD SMITH
+EUGENE SMITH
+CARLOS SMITH
+RUSSELL SMITH
+BOBBY SMITH
+VICTOR SMITH
+MARTIN SMITH
+ERNEST SMITH
+PHILLIP SMITH
+TODD SMITH
+JESSE SMITH
+CRAIG SMITH
+ALAN SMITH
+SHAWN SMITH
+CLARENCE SMITH
+SEAN SMITH
+PHILIP SMITH
+CHRIS SMITH
+JOHNNY SMITH
+EARL SMITH
+JIMMY SMITH
+ANTONIO SMITH
+149 accounts>smiths = db.bank_data.find({last_name: 'SMITH'})
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7741"), "first_name" : "ROBERT", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 3465277.443564153, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 6001520.415853325, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 1739276.2966888128, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7704684.832334223, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7742"), "first_name" : "MICHAEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 2819063.8844904397, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4131942.2529414617, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 3782509.0311059216, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 6531886.9064971, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 2105927.920320713, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 4612959.380901612, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7743"), "first_name" : "WILLIAM", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 2497138.738978415, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 405606.12124239095, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 9149015.783455048, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 8797914.360492531, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7744"), "first_name" : "DAVID", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8857597.106995674, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 471237.47356353, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 2834734.162895667, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 6177092.375456998, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7745"), "first_name" : "RICHARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 714872.2542833243, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4812651.936193353, "currency" : "YUAN" }, { "account_type" : "Investment", "account_balance" : 2862753.076585194, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 7518653.660258865, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 2349544.575176711, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8443090.325156216, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 745273.1369779429, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 8711574.840919748, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7746"), "first_name" : "CHARLES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 7959552.738209671, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 7586797.95113736, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3000642.5318386676, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 8510528.056592602, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 9792223.997477302, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 2541888.2929410744, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7747"), "first_name" : "JOSEPH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 4622864.137518865, "currency" : "YEN" }, { "account_type" : "Savings", "account_balance" : 6580439.762613354, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 9045715.151562946, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 8273872.604220738, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8996205.352283742, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 2691894.235052195, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7748"), "first_name" : "THOMAS", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 936130.4617335526, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 4173144.9420674974, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 8282074.554095908, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 7890796.5475060865, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 4747966.686441477, "currency" : "PESO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7749"), "first_name" : "CHRISTOPHER", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 1870338.5807330757, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 5098043.412530517, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 3042158.5783834355, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 2721431.0181220435, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 2135388.570106006, "currency" : "USD" }, { "account_type" : "Savings", "account_balance" : 2416831.8654360515, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 405349.36727577704, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 6140519.315997784, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774a"), "first_name" : "DANIEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 8382349.386766551, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 6605864.850059703, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 3849188.922156063, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 4040933.2733676303, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6169503.517499695, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 7641660.104955465, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 6103871.976585753, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 5707269.0824853135, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774b"), "first_name" : "PAUL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 936484.1221326711, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774c"), "first_name" : "MARK", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 521640.39247602574, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 9896058.025694223, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 6326316.032295041, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 752161.7102783576, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 496816.2525023853, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7791969.069134079, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 8401384.260885552, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774d"), "first_name" : "DONALD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 9075817.291616874, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 3447555.7155175945, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774e"), "first_name" : "GEORGE", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 7510049.716676093, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 8978088.436168617, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3536582.866462197, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4390095.46173461, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774f"), "first_name" : "KENNETH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 8984765.638846941, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7750"), "first_name" : "STEVEN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 7606194.17605087, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2099711.775821766, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2961011.973269031, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 5830306.873168334, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 1542091.8696738125, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7751"), "first_name" : "EDWARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 6577381.434625924, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8998935.759297138, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 588000.4045217587, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6743563.754405159, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8580650.627761671, "currency" : "POUNDS STERLING" }, { "account_type" : "401K", "account_balance" : 7687815.685781645, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 9128407.633252997, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7752"), "first_name" : "BRIAN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 149839.10500178766, "currency" : "PESO" } ] }
+Type "it" for more
+150 accounts>smiths.filter(s => s.first_name == 'JAMES')
+TypeError: smiths.filter is not a function :
+@(shell):1:1
+151 accounts>smithsArray.filter(s => s.first_name == 'JAMES')
+[
+        {
+                "_id" : ObjectId("622b887cedebf432ea3d773f"),
+                "first_name" : "JAMES",
+                "last_name" : "SMITH",
+                "accounts" : [
+                        {
+                                "account_type" : "Savings",
+                                "account_balance" : 8995952.153640702,
+                                "currency" : "PESO"
+                        },
+                        {
+                                "account_type" : "Checking",
+                                "account_balance" : 3901436.5580737568,
+                                "currency" : "USD"
+                        }
+                ]
+        }
+]
+152 accounts>smiths = db.bank_data.find({last_name: 'SMITH'})
+{ "_id" : ObjectId("622b887cedebf432ea3d773f"), "first_name" : "JAMES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8995952.153640702, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 3901436.5580737568, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7740"), "first_name" : "JOHN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 9059210.226195503, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 5926514.06875377, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 8172876.597329946, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4320374.732933239, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 9159979.449077135, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 8923437.883474918, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3810781.9932702538, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 1803757.09787294, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 4947925.350834157, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7741"), "first_name" : "ROBERT", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 3465277.443564153, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 6001520.415853325, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 1739276.2966888128, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7704684.832334223, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7742"), "first_name" : "MICHAEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 2819063.8844904397, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4131942.2529414617, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 3782509.0311059216, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 6531886.9064971, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 2105927.920320713, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 4612959.380901612, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7743"), "first_name" : "WILLIAM", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 2497138.738978415, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 405606.12124239095, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 9149015.783455048, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 8797914.360492531, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7744"), "first_name" : "DAVID", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 8857597.106995674, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 471237.47356353, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 2834734.162895667, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 6177092.375456998, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7745"), "first_name" : "RICHARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 714872.2542833243, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 4812651.936193353, "currency" : "YUAN" }, { "account_type" : "Investment", "account_balance" : 2862753.076585194, "currency" : "PESO" }, { "account_type" : "401K", "account_balance" : 7518653.660258865, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 2349544.575176711, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8443090.325156216, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 745273.1369779429, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 8711574.840919748, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7746"), "first_name" : "CHARLES", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 7959552.738209671, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 7586797.95113736, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3000642.5318386676, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 8510528.056592602, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 9792223.997477302, "currency" : "EURO" }, { "account_type" : "Savings", "account_balance" : 2541888.2929410744, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7747"), "first_name" : "JOSEPH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 4622864.137518865, "currency" : "YEN" }, { "account_type" : "Savings", "account_balance" : 6580439.762613354, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 9045715.151562946, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 8273872.604220738, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8996205.352283742, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 2691894.235052195, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7748"), "first_name" : "THOMAS", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 936130.4617335526, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 4173144.9420674974, "currency" : "EURO" }, { "account_type" : "401K", "account_balance" : 8282074.554095908, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 7890796.5475060865, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 4747966.686441477, "currency" : "PESO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7749"), "first_name" : "CHRISTOPHER", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 1870338.5807330757, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 5098043.412530517, "currency" : "POUNDS STERLING" }, { "account_type" : "Checking", "account_balance" : 3042158.5783834355, "currency" : "YEN" }, { "account_type" : "Investment", "account_balance" : 2721431.0181220435, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 2135388.570106006, "currency" : "USD" }, { "account_type" : "Savings", "account_balance" : 2416831.8654360515, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 405349.36727577704, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 6140519.315997784, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774a"), "first_name" : "DANIEL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 8382349.386766551, "currency" : "PESO" }, { "account_type" : "Savings", "account_balance" : 6605864.850059703, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 3849188.922156063, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 4040933.2733676303, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6169503.517499695, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 7641660.104955465, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 6103871.976585753, "currency" : "YEN" }, { "account_type" : "401K", "account_balance" : 5707269.0824853135, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774b"), "first_name" : "PAUL", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 936484.1221326711, "currency" : "YUAN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774c"), "first_name" : "MARK", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 521640.39247602574, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 9896058.025694223, "currency" : "POUNDS STERLING" }, { "account_type" : "Savings", "account_balance" : 6326316.032295041, "currency" : "POUNDS STERLING" }, { "account_type" : "Investment", "account_balance" : 752161.7102783576, "currency" : "PESO" }, { "account_type" : "Checking", "account_balance" : 496816.2525023853, "currency" : "USD" }, { "account_type" : "Checking", "account_balance" : 7791969.069134079, "currency" : "EURO" }, { "account_type" : "Checking", "account_balance" : 8401384.260885552, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774d"), "first_name" : "DONALD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Savings", "account_balance" : 9075817.291616874, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 3447555.7155175945, "currency" : "POUNDS STERLING" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774e"), "first_name" : "GEORGE", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Checking", "account_balance" : 7510049.716676093, "currency" : "PESO" }, { "account_type" : "Investment", "account_balance" : 8978088.436168617, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 3536582.866462197, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 4390095.46173461, "currency" : "USD" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d774f"), "first_name" : "KENNETH", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 8984765.638846941, "currency" : "YEN" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7750"), "first_name" : "STEVEN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "Investment", "account_balance" : 7606194.17605087, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2099711.775821766, "currency" : "EURO" }, { "account_type" : "Investment", "account_balance" : 2961011.973269031, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 5830306.873168334, "currency" : "USD" }, { "account_type" : "401K", "account_balance" : 1542091.8696738125, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7751"), "first_name" : "EDWARD", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 6577381.434625924, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 8998935.759297138, "currency" : "USD" }, { "account_type" : "Investment", "account_balance" : 588000.4045217587, "currency" : "YUAN" }, { "account_type" : "Savings", "account_balance" : 6743563.754405159, "currency" : "YUAN" }, { "account_type" : "401K", "account_balance" : 8580650.627761671, "currency" : "POUNDS STERLING" }, { "account_type" : "401K", "account_balance" : 7687815.685781645, "currency" : "YEN" }, { "account_type" : "Checking", "account_balance" : 9128407.633252997, "currency" : "EURO" } ] }
+{ "_id" : ObjectId("622b887cedebf432ea3d7752"), "first_name" : "BRIAN", "last_name" : "SMITH", "accounts" : [ { "account_type" : "401K", "account_balance" : 149839.10500178766, "currency" : "PESO" } ] }
+Type "it" for more
+153 accounts>
+154 accounts>
+155 accounts>
+156 accounts>
+157 accounts>
+158 accounts>
+159 accounts>
+160 accounts>
+161 accounts>
+162 accounts>use one
+switched to db one
+163 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{
+        "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237d02812c493b0a1fc51cd"),
+        "name" : "Kamala Harris",
+        "year" : "2021"
+}       db.presidents.updateOne({_id: ObjectId("6237d40f12c493b0a1fc53c2")}, {$set: {name: 'Ronald Reagen', year: 1980}})
+
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+165 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{
+        "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237d02812c493b0a1fc51cd"),
+        "name" : "Kamala Harris",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237d40f12c493b0a1fc53c2"),
+        "foo" : "bar",
+        "name" : "Ronald Reagen",
+        "year" : 1980
+}
+166 one>db.presidents.updateOne({_id: ObjectId("6237d40f12c493b0a1fc53c2")}, {$set: {foo: undefined}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+167 one>db.presidents.find().pretty()
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a2"),
+        "name" : "Barack Hussein Obama",
+        "year" : "2014"
+}
+{
+        "_id" : ObjectId("603bc8d8a951970cb8c5b2a3"),
+        "name" : "Donald Trump",
+        "year" : "2017"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51ca"),
+        "name" : "Bill Clinton",
+        "year" : "1992"
+}
+{
+        "_id" : ObjectId("6237cb3e12c493b0a1fc51cb"),
+        "name" : "George W Bush",
+        "year" : 2000
+}
+{ "_id" : 5, "name" : "George HW Bush", "year" : "1988" }
+{
+        "_id" : ObjectId("6237cdfb12c493b0a1fc51cc"),
+        "name" : "Joe Biden",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237d02812c493b0a1fc51cd"),
+        "name" : "Kamala Harris",
+        "year" : "2021"
+}
+{
+        "_id" : ObjectId("6237d40f12c493b0a1fc53c2"),
+        "foo" : undefined,
+        "name" : "Ronald Reagen",
+        "year" : 1980
+}       db.people.insertMany([{name: 'bob', age: 30},{name: 'joe', age: 35},{name: 'sam', age: 21}])  nsertMany([{name: 'bob', age: 30},{name: 'joe', age: 35},{nam}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("6237d93712c493b0a1fc53c3"),
+                ObjectId("6237d93712c493b0a1fc53c4"),
+                ObjectId("6237d93712c493b0a1fc53c5")
+        ]
+}
+169 one>db.people.find().pretty()
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c3"), "name" : "bob", "age" : 30 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c4"), "name" : "joe", "age" : 35 }
+{ "_id" db.people.updateMany({}, {$set: {position: 'Software Engineer', salary: 100000}});
+{ "acknowledged" : true, "matchedCount" : 3, "modifiedCount" : 3 }
+175 one>
+176 one>
+177 one>
+178 one>
+179 one>
+180 one>
+181 one>
+182 one>
+183 one>
+184 one>
+185 one>
+186 one>
+187 one>
+188 one>
+189 one>
+190 one>db.people.find().pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c3"),
+        "name" : "bob",
+        "age" : 30,
+        "position" : "Software Engineer",
+        "salary" : 100000
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c4"),
+        "name" : "joe",
+        "age" : 35,
+        "position" : "Software Engineer",
+        "salary" : 100000
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        db.people.insertMany([{name: 'Kamala', age: 30, position: 'VP', salary: 200000}])  db.people.insertMany([{name: 'Kamala', age: 30, position: 'VP', salary: }])
+{91 one>db.people.insertMany([{name: 'bob', age: 30},{name: 'joe', age: 35},{name])        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("6237da1312c493b0a1fc53c6")
+        ]
+}
+192 one>
+193 one>
+194 one>
+195 one>db.people.find().pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c3"),
+        "name" : "bob",
+        "age" : 30,
+        "position" : "Software Engineer",
+        "salary" : 100000
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c4"),
+        "name" : "joe",
+        "age" : 35,
+        "position" : "Software Engineer",
+        "salary" : 100000
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 100000
+}
+{
+        "_id" : ObjectId("6237da1312c493b0a1fc53c6"),
+        "name" : "Kamala",
+        "age" : 30,
+        "position" : "VP",
+        "salary" : 200000
+}       db.people.updateMany({position: 'Software Engineer'}, {$mul: {salary: 1.1}})96 one>db.people.updateMany({position: 'Software Engineer'}, {$mul: {salary: 1.1}}
+{ "acknowledged" : true, "matchedCount" : 3, "modifiedCount" : 3 }
+197 one>
+198 one>
+199 one>
+200 one>db.people.find().pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c3"),
+        "name" : "bob",
+        "age" : 30,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c4"),
+        "name" : "joe",
+        "age" : 35,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001
+}
+{
+        "_id" : ObjectId("6237da1312c493b0a1fc53c6"),
+        "name" : "Kamala",
+        "age" : 30,
+        "position" : "VP",
+        "salary" : 200000
+}
+201 one>db.people.find({salary: {$gt: 120000}})
+{ "_id" : ObjectId("6237da1312c493b0a1fc53c6"), "name" : "Kamala", "age" : 30, "position" : "VP", "salary" : 200000 }
+202 one>db.people.find({salary: {$lt: 120000}})
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c3"), "name" : "bob", "age" : 30, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c4"), "name" : "joe", "age" : 35, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c5"), "name" : "sam", "age" : 21, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+203 one>db.people.find({salary: {$gt: 110000.00000000001}})
+{ "_id" : ObjectId("6237da1312c493b0a1fc53c6"), "name" : "Kamala", "age" : 30, "position" : "VP", "salary" : 200000 }
+204 one>db.people.find({salary: {$gte: 110000.00000000001}})
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c3"), "name" : "bob", "age" : 30, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c4"), "name" : "joe", "age" : 35, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c5"), "name" : "sam", "age" : 21, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237da1312c493b0a1fc53c6"), "name" : "Kamala", "age" : 30, "position" : "VP", "salary" : 200000 }
+205 one>db.people.find({salary: {$eq: 110000.00000000001}})
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c3"), "name" : "bob", "age" : 30, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c4"), "name" : "joe", "age" : 35, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c5"), "name" : "sam", "age" : 21, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+206 one>db.people.find({salary: {$neq: 110000.00000000001}})
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "unknown operator: $neq",
+        "code" : 2,
+        "codeName" : "BadValue"
+}
+207 one>db.people.find({salary: {$ne: 110000.00000000001}})
+{ "_id" : ObjectId("6237da1312c493b0a1fc53c6"), "name" : "Kamala", "age" : 30, "position" :db.people.find({$and: {salary: {$gte: 110000.00000000001}}, {position: {$ne: 'Software Engineer'}}))and: {salary: {$gte: 110000.00000000001}}, {position: {$n)
+SyntaxError: expected property name, got '{' :
+@(shell):1:60
+209 one>db.people.find({$and: {salary: {$gte: 110000.00000000001}}, {position: {$ne: 'Software Engineer'}}}))
+SyntaxError: expected property name, got '{' :
+@(shell):1:60
+210 one>db.people.find({$and: [{salary: {$gte: 110000.00000000001}}, {position: {$ne: 'Software Engineer'}}]}))
+SyntaxError: unexpected token: ')' :
+@(shell):1:102
+211 one>db.people.find({$and: [{salary: {$gte: 110000.00000000001}}, {position: {$ne: 'Software Engineer'}}]})
+{ "_id" : ObjectId("6237da1312c493b0a1fc53c6"), "name" : "Kamala", "age" : 30, "position" : "VP", "salary" : 200000 }
+212 one>db.people.find({$and: [{salary: {$gte: 110000.00000000001}}, {position: {$eq: 'Software Engineer'}}]})
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c3"), "name" : "bob", "age" : 30, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c4"), "name" : "joe", "age" : 35, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c5"), "name" : "sam", "age" : 21, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+213 one>db.people.find({$or: [{salary: {$gt: 110000.00000000001}}, {position: {$eq: 'Software Engineer'}}]})
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c3"), "name" : "bob", "age" : 30, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c4"), "name" : "joe", "age" : 35, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237d93712c493b0a1fc53c5"), "name" : "sam", "age" : 21, "position" : "Software Engineer", "salary" : 110000.00000000001 }
+{ "_id" : ObjectId("6237da1312c493b0a1fc53c6"), "name" : "Kamala", "age" : 30, "position" : "VP", "salary" : 200000 }
+214 one>db.people.find({$and: [{salary: {$gt: 110000.00000000001}}, {position: {$eq: 'Software Engineer'}}]})
+215 one>db.people.updateMany({}, {$set: {references: ['Joe', 'Kamala']}})
+{ "acknowledged" : true, "matchedCount" : 4, "modifiedCount" : 4 }
+216 one>db.people.find().pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c3"),
+        "name" : "bob",
+        "age" : 30,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c4"),
+        "name" : "joe",
+        "age" : 35,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+{
+        "_id" : ObjectId("6237da1312c493b0a1fc53c6"),
+        "name" : "Kamala",
+        "age" : 30,
+        "position" : "VP",
+        "salary" : 200000,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+217 one>db.people.updateOne({name: 'sam'}, {$push: {references: 'Donald'}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+218 one>db.people.find({name: 'sam'}).pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala",
+                "Donald"
+        ]
+}
+219 one>db.people.find().pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c3"),
+        "name" : "bob",
+        "age" : 30,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c4"),
+        "name" : "joe",
+        "age" : 35,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala",
+                "Donald"
+        ]
+}
+{
+        "_id" : ObjectId("6237da1312c493b0a1fc53c6"),
+        "name" : "Kamala",
+        "age" : 30,
+        "position" : "VP",
+        "salary" : 200000,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+220 one>db.people.updateOne({name: 'sam'}, {$pop: {references: 'Donald'}})
+WriteError({
+        "index" : 0,
+        "code" : 9,
+        "errmsg" : "Expected a number in: references: \"Donald\"",
+        "op" : {
+                "q" : {
+                        "name" : "sam"
+                },
+                "u" : {
+                        "$pop" : {
+                                "references" : "Donald"
+                        }
+                },
+                "multi" : false,
+                "upsert" : false
+        }
+}) :
+WriteError({
+        "index" : 0,
+        "code" : 9,
+        "errmsg" : "Expected a number in: references: \"Donald\"",
+        "op" : {
+                "q" : {
+                        "name" : "sam"
+                },
+                "u" : {
+                        "$pop" : {
+                                "references" : "Donald"
+                        }
+                },
+                "multi" : false,
+                "upsert" : false
+        }
+})
+WriteError@src/mongo/shell/bulk_api.js:465:48
+mergeBatchResults@src/mongo/shell/bulk_api.js:871:49
+executeBatch@src/mongo/shell/bulk_api.js:940:13
+Bulk/this.execute@src/mongo/shell/bulk_api.js:1182:21
+DBCollection.prototype.updateOne@src/mongo/shell/crud_api.js:600:17
+@(shell):1:1
+221 one>db.people.updateOne({name: 'sam'}, {$pull: {references: 'Donald'}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+222 one>db.people.find({name: 'sam'}).pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+223 one>db.people.updateOne({name: 'sam'}, {$push: {references: 'Donald'}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+224 one>db.people.find({name: 'sam'}).pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala",
+                "Donald"
+        ]
+}
+225 one>db.people.updateOne({name: 'sam'}, {$pop: {references: 1}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+226 one>db.people.find({name: 'sam'}).pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+227 one>db.people.find({name: 'sam'}).pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Joe",
+                "Kamala"
+        ]
+}
+228 one>db.people.updateOne({name: 'sam'}, {$pop: {references: -1}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+229 one>db.people.find({name: 'sam'}).pretty()
+{
+        "_id" : ObjectId("6237d93712c493b0a1fc53c5"),
+        "name" : "sam",
+        "age" : 21,
+        "position" : "Software Engineer",
+        "salary" : 110000.00000000001,
+        "references" : [
+                "Kamala"
+        ]
+}
+230 one>db.people.updateOne({name: 'sam'}, {$pop: {references: -1}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+231 one>
+232 one>
+233 one>
+234 one>
+235 one>
+236 one>
+237 one>
+238 one>
+239 one>
+240 one>
+241 one>db.foobar.bar.insertOne({foo: 5})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6237de8e12c493b0a1fc53c7")
+}
+242 one>show collections
+foobar
+foobar.bar
+people
+presidents
+243 one>db.foobar.bar.drop()
+true
+244 one>show collections
+foobar
+people
+presidents
+245 one>db.foobar.drop()
+true
+246 one>show collections
+people
+presidents
+247 one>show dbs
+accounts  0.006GB
+admin     0.000GB
+config    0.000GB
+foo       0.000GB
+local     0.000GB
+one       0.000GB
+248 one>use foo
+switched to db foo
+249 foo>db.drop()
+TypeError: db.drop is not a function :
+@(shell):1:1
+250 foo>db.dropDatabase()
+{ "ok" : 1 }
+251 foo>show dbs
+accounts  0.006GB
+admin     0.000GB
+config    0.000GB
+local     0.000GB
+one       0.000GB

@@ -1,0 +1,34 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>description</th>
+      <th>price</th>
+      <th>quantity</th>
+      <th>total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#noItems}}
+    <tr>
+      <td colspan="5">No items in cart. Add some <a href="/">here</a></td>
+    </tr>
+    {{/noItems}}
+    {{#cartItems}}
+    <tr>
+      <td>{{ item.name }}</td>
+      <td>{{ item.description }}</td>
+      <td>{{ item.price }}</td>
+      <td>{{ quantity}}</td>
+      <td>{{ subtotal }}</td>
+    </tr>
+    {{/cartItems}}
+    {{^noItems}}
+    <tfoot>
+      <tr>
+        <td colspan="4">Total</td>
+        <td>{{ total }}</td>
+      </tr>
+    </tfoot>
+    {{/noItems}}
+  </tbody>

@@ -1,0 +1,5 @@
+<form method="POST">
+  <input name="username" />
+  <input type="password" name="password" />
+  <button>register</button>
+</form>

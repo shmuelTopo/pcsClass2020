@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>{{#name}}Hello {{ name }}, {{/name}}welcome to {{ title }}</p>
+
+    <form method="POST">
+      enter your name: <input name="name" placeholder="Name" />
+      <button>submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+    <h2>{{foo}}</h2>
+
+    <ul>
+      {{#people}}
+        <li>{{name}}</li>
+      {{/people}}
+    </ul>
+
+    <ul>
+      {{#iqs}}
+      <li>{{.}}</li>
+      {{/iqs}}
+    </ul>
+
+    <ul>
+      {{#things}}
+      <li>{{.}}</li>
+      {{/things}}
+    </ul>
+
+    {{#noThings}}
+    <h3>Sorry, there are no things</h3>
+    {{/noThings}}
+  </body>
+
+</html>

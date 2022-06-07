@@ -1,0 +1,9 @@
+<div class="error">{{message}}<br></div>
+<form method="POST" action="login">
+  <input name="username" />
+  <input type="password" name="password" />
+  <button>login</button>
+  <a href="/register">register</a>
+</form>
+<p>Welcome to {{ title }}</p>
+
