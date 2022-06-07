@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body>
+    <h1>{{ appTitle }}</h1>
+
+    <a href="/">login</a> | <a href="/logout">logout</a> | <a href="/admin">admin</a>
+
+   {{>content}}
+  </body>
+
+</html>

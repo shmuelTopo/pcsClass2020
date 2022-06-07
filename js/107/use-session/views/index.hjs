@@ -1,0 +1,7 @@
+<form method="POST" action="login">
+  <input name="username" />
+  <input type="password" name="password" />
+  <button>login</button>
+</form>
+<p>Welcome to {{ title }}</p>
+

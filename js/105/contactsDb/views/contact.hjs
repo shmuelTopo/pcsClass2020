@@ -1,0 +1,24 @@
+<form method="POST">
+  <!--input type="hidden" name="id" required value="{{#contact}}{{id}}{{/contact}}"-->
+
+  <div class="formGroup">
+    <label for="first">first:</label>
+    <input id="first" name="firstName" required value="{{#contact}}{{firstName}}{{/contact}}">
+  </div>
+  <div class="formGroup">
+    <label for="last">last:</label>
+    <input id="last" name="lastName" required value="{{#contact}}{{lastName}}{{/contact}}">
+  </div>
+  <div class="formGroup">
+    <label for="email">email:</label>
+    <input type="email" id="email" name="email" value="{{#contact}}{{email}}{{/contact}}">
+  </div>
+  <div class="formGroup">
+    <label for="phone">phone</label>
+    <input id="phone" name="phone" value="{{#contact}}{{phone}}{{/contact}}">
+  </div>
+  <div class="buttons">
+    <button class="btn">save</button>
+    <a class="btn" href="/contacts">cancel</a>
+  </div>
+</form>
